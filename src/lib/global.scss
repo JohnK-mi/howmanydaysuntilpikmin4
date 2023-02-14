@@ -30,10 +30,14 @@ $tertiary-accent: #fcbcb8;
 // }
 
 .digits {
-    width: 35%;
+    width: 100%;
     height: min(15%,52px);
     margin: 5% auto auto auto;
     text-align: center;
+    position:absolute;
+    left: 50%;
+    margin-left: -50%;
+    top:10%;
 
 }
 
@@ -47,20 +51,25 @@ $tertiary-accent: #fcbcb8;
     //width: 25%;
     //width: 25%;
     display: inline-block;
-    width: min(33%,48px);
+    width: min(30%,48px);
 }
 
 .poko-header-text {
-    width: 100%;
+    width: 80%;
+    display: inline-block;
+    position:absolute;
+    left: 50%;
+    margin-left: -40%;
+    top:0px;
     //object-fit: fill;
     
 }
 
 .poko-header {
-    background-color: transparent;
     margin: auto;
     width: 80%;
     text-align: center;
+    margin-left: 50%;
 }
 
 .poko-footer {
