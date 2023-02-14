@@ -15,9 +15,10 @@ export async function load({}){
         tmpDaysLeft = Math.floor(tmpDaysLeft/10);
         //console.log(tmpDaysLeft);
     }
+    digits = digits.reverse();
     //console.log(numDigits);
     //console.log(digits);
     //console.log(currentDate);
     //console.log(releaseDate);
-    return {numDaysLeft};
+    return {numDaysLeft,digits};
 }

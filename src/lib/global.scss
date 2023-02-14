@@ -5,20 +5,57 @@ $primary-accent: #503047;
 $secondary-accent: #d5dcf9;
 $tertiary-accent: #fcbcb8;
 
-body {
+:global(body) {
+    background-image: url("/src/lib/background.png");
     background-color: $primary-color;
+    //background-size: contain;
+    //backdrop-filter: blur(8px);
     color: $tertiary-accent;
     font-family: 'Lucida Console',monospace;
 }
 
-.pokobox {
-    width: 65%;
-    margin:auto;
-    border-radius: 20px 20px 20px 20px;
-    border-width: 2%;
-    border-color: $primary-accent;
-    border-style: solid;
-    background-color: $secondary-color;
-    padding: 0% 0% 0% 2%;
+// .pokobox {
+//     width: 65%;
+//     margin:auto;
+//     border-radius: 20px 20px 20px 20px;
+//     border-width: 2%;
+//     border-color: $primary-accent;
+//     border-style: solid;
+//     background-color: $secondary-color;
+//     padding: 0% 0% 0% 2%;
+//     text-align: center;
+// }
+
+.digits {
+    width: 35%;
+    height: min(15%,52px);
+    margin: 5% auto auto auto;
+    text-align: center;
+
+}
+
+.poko-digit-text {
+    width: 48px;
+    height: 52px;
+    object-fit: contain;
+}
+
+.poko-digit {
+    //width: 25%;
+    //width: 25%;
+    display: inline-block;
+    width: min(33%,48px);
+}
+
+.poko-header-text {
+    width: 100%;
+    //object-fit: fill;
+    
+}
+
+.poko-header {
+    background-color: transparent;
+    margin: auto;
+    width: 80%;
     text-align: center;
 }
