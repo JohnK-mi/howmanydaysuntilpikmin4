@@ -4,17 +4,17 @@
 </script>
 
 <div class="poko-header">
-    <img class="poko-header-text" src="/src/lib/header.png" alt="How many days until Pikmin 4?">
+    <img class="poko-header-text" src="/header.png" alt="How many days until Pikmin 4?">
 </div>
 <div class="digits">
     {#each data.digits as digit}
         <div class="poko-digit">
-            <img class="poko-digit-text" src="/src/lib/{digit}.png" alt="{digit}" width=48 height=52>
+            <img class="poko-digit-text" src="/{digit}.png" alt="{digit}" width=48 height=52>
         </div>
     {/each}
 </div>
 <div class="poko-footer">
-    <a href="https://www.buymeacoffee.com/jkirchner"><img class="poko-footer-image" src="/src/lib/coffee.png" alt="Buy me a coffee?"></a>
+    <a href="https://www.buymeacoffee.com/jkirchner"><img class="poko-footer-image" src="/coffee.png" alt="Buy me a coffee?"></a>
 </div>
 
 <!-- <p>That's around ~{Math.round(numHoursLeft)} Hours</p>
