@@ -16,6 +16,10 @@
     //console.log(data);
 </script>
 
+<svelte:head>
+    <title>How many days until Pikmin 4?</title>
+</svelte:head>
+
 <div class="poko-hidden-imports">
     <img class="poko-hidden-image" src="./../lib/0.png" alt="Don't mind me">
     <img class="poko-hidden-image" src="./../lib/1.png" alt="Don't mind me">
