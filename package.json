@@ -16,5 +16,8 @@
 		"svelte-preprocess": "^5.0.1",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-preprocess-import-assets": "^0.2.5"
+	}
 }
