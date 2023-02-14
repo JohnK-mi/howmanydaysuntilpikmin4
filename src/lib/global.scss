@@ -10,7 +10,7 @@ $tertiary-accent: #fcbcb8;
     height: fit-content;
     background-image: url("./../lib/background.png");
     background-color: $primary-color;
-    background-size: fill;
+    background-size: 100% auto;
     //background-size: contain;
     //backdrop-filter: blur(8px);
     color: $tertiary-accent;
@@ -77,4 +77,55 @@ $tertiary-accent: #fcbcb8;
     bottom: 0px;
     margin-left: -30%;
 
+}
+
+.poko-hidden-imports{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
+.poko-hidden-image{
+    width: 0px;
+    height: 0px;
+}
+
+.poko-0{
+    content: url("./../lib/0.png");
+}
+
+.poko-1{
+    content: url("./../lib/1.png");
+}
+
+.poko-2{
+    content: url("./../lib/2.png");
+}
+
+.poko-3{
+    content: url("./../lib/3.png");
+}
+
+.poko-4{
+    content: url("./../lib/4.png");
+}
+
+.poko-5{
+    content: url("./../lib/5.png");
+}
+
+.poko-6{
+    content: url("./../lib/6.png");
+}
+
+.poko-7{
+    content: url("./../lib/7.png");
+}
+
+.poko-8{
+    content: url("./../lib/8.png");
+}
+
+.poko-9{
+    content: url("./../lib/9.png");
 }
