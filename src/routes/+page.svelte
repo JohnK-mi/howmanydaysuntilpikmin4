@@ -13,6 +13,9 @@
         </div>
     {/each}
 </div>
+<div class="poko-footer">
+    <a href="https://www.buymeacoffee.com/jkirchner"><img class="poko-footer-image" src="/src/lib/coffee.png" alt="Buy me a coffee?"></a>
+</div>
 
 <!-- <p>That's around ~{Math.round(numHoursLeft)} Hours</p>
 <p>Or ~{Math.round(numMinutesLeft)} Minutes</p>

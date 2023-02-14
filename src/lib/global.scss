@@ -62,3 +62,19 @@ $tertiary-accent: #fcbcb8;
     width: 80%;
     text-align: center;
 }
+
+.poko-footer {
+    height:45%;
+    text-align: center;
+}
+
+.poko-footer-image {
+    width: 60%;
+    height: 104px;
+    object-fit: contain;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    margin-left: -30%;
+
+}
