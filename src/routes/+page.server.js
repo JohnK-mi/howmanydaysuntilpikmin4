@@ -6,7 +6,7 @@ export async function load({}){
     let numMinutesLeft = numSecondsLeft/60;
     let numHoursLeft = numMinutesLeft/60;
     let numDaysLeft = numHoursLeft/24;
-    let tmpDaysLeft= Math.round(numDaysLeft);
+    let tmpDaysLeft= Math.ceil(numDaysLeft);
     let numDigits = 0;
     let digits = [];
     while(tmpDaysLeft>0){
